@@ -78,7 +78,7 @@ class Box extends React.Component{
     return (
       <div id="quote-box">
         <div id="text">{this.state.quote}</div>
-        <div id="author">{this.state.quote2}</div>
+        <div id="punch">{this.state.quote2}</div>
         <div id="buttons">
           <a id="tweet-quote" href={this.state.tweetLink}><i class="fa fa-twitter"></i></a>
           <button id="new-quote" onClick = {this.handleClick}>New Joke</button>
